@@ -8,8 +8,8 @@ function Project({darkmode}) {
   const projects=[
     {
       id:1,
-      title:'E-COMMERCE PLATFORM',
-      desc:'amaammmmmmmmmmammammama',
+      title:'CarBazar',
+      desc:'Online platform to buy and sell',
       image:Project1,
       tags:['MERN'],
       github: 'https://github.com/Rohitchouhan23/E-Commerce-Application.git',
@@ -17,8 +17,8 @@ function Project({darkmode}) {
     },
     {
       id:2,
-      title:'E-COMMERCE PLATFORM',
-      desc:'amaammmmmmmmmmammammama',
+      title:'Library Management System',
+      desc:'Software application used to manage books',
       image:Project2,
       tags:['React','Node Js',],
       github: 'https://github.com/Rohitchouhan23/Book-Inventory-System.git',
