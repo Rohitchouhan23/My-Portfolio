@@ -7,7 +7,7 @@ import X from './X';
 function Navbar({darkmode,toggleDarkMode}) {
     const [activeSection,setActiveSection]=useState('home');
     const [isMenuOpen,setIsMenuOpen]=useState(false);
-    
+    const [hoveredItem, setHoveredItem] = useState(null);
 
 
     const navitems=[
@@ -57,7 +57,7 @@ function Navbar({darkmode,toggleDarkMode}) {
         <div className='flex items-center justify-between w-full space-x-6 lg:space-x-8'>
           {/* logo */}
           <motion.a href="/"
-          whiteHover={{scale:1.05}}
+          whileHover={{scale:1.05}}
           className='flex items-center space-x-2'>
             <span
             className={`text-xl font-bold ${colors.textPrimary}`}>
@@ -76,15 +76,14 @@ function Navbar({darkmode,toggleDarkMode}) {
               className='relative'
               >
                 <motion.span
+                  whileHover={{scale:1.05}}
+                  whileTap={{scale:0.95}}                
                 className={`font-medium transition-color duration-300
                 ${activeSection === item.name.toLocaleLowerCase()
                   ?colors.textActive
                   :`${colors.textSecondary} hover:text-orange-500`
                 }
-                  whileHover={{scale:1.05}}
-                  whileTap={{scale:0.95}}
                 `}>
- 
                   {item.name}
                 </motion.span>
                 {activeSection === item.name.toLocaleLowerCase() && (
