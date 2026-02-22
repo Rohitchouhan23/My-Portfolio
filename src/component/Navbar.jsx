@@ -9,15 +9,12 @@ function Navbar({darkmode,toggleDarkMode}) {
     const [isMenuOpen,setIsMenuOpen]=useState(false);
     const [hoveredItem, setHoveredItem] = useState(null);
 
-
-    const navitems=[
-        {name:'Home',link:'#home'},
-        {name:'About',link:'#about'},
-        {name:'Skills',link:'#skills'},
-        {name:'Projects',link:'#projects'},
-        {name:'Contact',link:'#contact'},  
+    const navitems = [
+      { name: "Home", link: "#home" },
+      { name: "About", link: "#about" },
+      { name: "Projects", link: "#projects" },
+      { name: "Contact", link: "#contact" }
     ];
-
     const lightColors={
       navBg:'bg-gradient-to-br from-orange-200 to-white',
       textPrimary:'text-gray-900',
@@ -93,7 +90,7 @@ function Navbar({darkmode,toggleDarkMode}) {
                     right-0 h-0.5 bg-linear-to-r rounded-full
                     ${colors.indicate}
                     `}>
-                  </motion.div>
+                 </motion.div>
                 )}
               </a>
             ))}

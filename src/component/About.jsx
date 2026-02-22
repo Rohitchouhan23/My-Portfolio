@@ -57,7 +57,7 @@ function About({darkmode}) {
                     data-aos-delay="600"
                 >
                     <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400">
-                    5+
+                    10+
                     </div>
                     <div className={`text-xs sm:text-sm lg:text-base 
                         ${darkmode ? 'text-gray-300' :"text-gray-600"}`}>
@@ -70,7 +70,7 @@ function About({darkmode}) {
                     data-aos-delay="600"
                 >
                     <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400">
-                    10+
+                    5+
                     </div>
                     <div className={`text-xs sm:text-sm lg:text-base 
                         ${darkmode ? 'text-gray-300' :"text-gray-600"}`}>

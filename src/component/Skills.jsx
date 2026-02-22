@@ -70,7 +70,7 @@ function Skills({darkmode}) {
                       <img src={skill.icon}
                       alt={skill.name}
                       className='w-full h-full object-contain'/>
-                    </div>
+                    </div>        
                     <h3
                     className='text-xl font-bold ml-4 '
                     style={{

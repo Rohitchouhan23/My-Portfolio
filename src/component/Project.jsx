@@ -3,6 +3,7 @@ import React from 'react'
 import {FaExternalLinkAlt ,FaGithub} from 'react-icons/fa'
 import Project1 from '../assets/project1.png'
 import Project2 from '../assets/project2.png'
+import Project3 from '../assets/Project3.png'
 
 function Project({darkmode}) {
   const projects=[
@@ -13,7 +14,7 @@ function Project({darkmode}) {
       image:Project1,
       tags:['MERN'],
       github: 'https://github.com/Rohitchouhan23/E-Commerce-Application.git',
-      demo: 'https://github.com/Rohitchouhan23/E-Commerce-Application.git'
+      demo: 'https://e-commerce-application-carbazar.vercel.app/'
     },
     {
       id:2,
@@ -23,6 +24,15 @@ function Project({darkmode}) {
       tags:['React','Node Js',],
       github: 'https://github.com/Rohitchouhan23/Book-Inventory-System.git',
       demo: 'https://book-inventory-system-six.vercel.app'
+    },
+        {
+      id:3,
+      title:'Nextalk',
+      desc:'Real-time chat application',
+      image:Project3,
+      tags:['MERN','Socket.io.',],
+      github: 'https://github.com/Rohitchouhan23/Chat-Application.git',
+      demo: 'https://chat-application-nextalk.vercel.app/'
     }
   ]
   return (
