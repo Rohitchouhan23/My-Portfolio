@@ -4,7 +4,7 @@ import {FaExternalLinkAlt ,FaGithub} from 'react-icons/fa'
 import Project1 from '../assets/project1.png'
 import Project2 from '../assets/project2.png'
 import Project3 from '../assets/Project3.png'
-
+import Project4 from '../assets/Project4.png'
 function Project({darkmode}) {
   const projects=[
     {
@@ -21,19 +21,28 @@ function Project({darkmode}) {
       title:'Library Management System',
       desc:'Software application used to manage books',
       image:Project2,
-      tags:['React','Node Js',],
-      github: 'https://github.com/Rohitchouhan23/Book-Inventory-System.git',
-      demo: 'https://book-inventory-system-six.vercel.app'
+      tags:['React','MockAPI.io',],
+      github: 'https://github.com/Rohitchouhan23/book-management-system.git',
+      demo: 'https://book-management-system-ldwy.vercel.app'
     },
         {
       id:3,
       title:'Nextalk',
       desc:'Real-time chat application',
       image:Project3,
-      tags:['MERN','Socket.io.',],
+      tags:['MERN','Socket.io.'],
       github: 'https://github.com/Rohitchouhan23/Chat-Application.git',
       demo: 'https://chat-application-nextalk.vercel.app/'
-    }
+    },
+        {
+      id:4,
+      title:'TrackSync',
+      desc:'Real-time live location sharing app ',
+      image:Project4,
+      tags:['MERN','Kafka','Redis'],
+      github: 'https://github.com/Rohitchouhan23/TrackSync.git',
+      demo: 'https://track-sync-one.vercel.app/login'
+    },
   ]
   return (
     <section
