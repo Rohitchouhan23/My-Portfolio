@@ -41,7 +41,7 @@ function Project({darkmode}) {
       image:Project4,
       tags:['MERN','Kafka','Redis'],
       github: 'https://github.com/Rohitchouhan23/TrackSync.git',
-      demo: 'https://track-sync-one.vercel.app/login'
+      demo: 'https://track-sync-one.vercel.app/login' 
     },
   ]
   return (
